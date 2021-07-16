@@ -16,9 +16,8 @@ public abstract class EnsambladoraBuilder {
         return vehiculo;
     }
     
+    public abstract void ConstruirVehiculo();
     public abstract void ConstruirHabitaculo();
     public abstract void ConstruirMotor();
-    public abstract void CamaraRuedas();
-    public abstract void DefinirRuedas();
-    public abstract void DefinirMarcaModelo();
+    public abstract void ConstruirCarroceria();
 }

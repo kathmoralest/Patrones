@@ -10,6 +10,16 @@ package conpatron;
  * @author alexx
  */
 public class Ensamblador1 extends EnsambladoraBuilder{
+    
+    @Override
+    public void ConstruirVehiculo() {
+        /*
+        vehiculo = new Vehiculo();
+        vehiculo.marca = "";
+        vehiculo.color = "";
+        vehiculo.modelo = "";
+        */
+    }
 
     @Override
     public void ConstruirHabitaculo() {
@@ -18,23 +28,21 @@ public class Ensamblador1 extends EnsambladoraBuilder{
 
     @Override
     public void ConstruirMotor() {
-        
+        /*
+        vehiculo.motor = new MotorDiesel();
+        */
     }
 
     @Override
-    public void CamaraRuedas() {
-        
+    public void ConstruirCarroceria() {
+        /*
+        vehiculo.tipoCarroceria = new Carroceria();
+        vehiculo.tipoCarroceria.habitaculoReforzado = true;
+        vehiculo.tipoCarroceria.material = "";
+        vehiculo.tipoCarroceria.material = "";
+        */
     }
 
-    @Override
-    public void DefinirRuedas() {
-        
-    }
-
-    @Override
-    public void DefinirMarcaModelo() {
-        
-    }
     
     
     

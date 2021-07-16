@@ -13,4 +13,10 @@ public class RetroCamCar extends AutomovilDecorator{
     public RetroCamCar(Vehiculo vehiculo){
         super(vehiculo);
     }
+    
+    @Override
+    public void aggFeatures(){
+        super.aggFeatures();
+        System.out.println("Agregado una camara trasera en el vehiculo");
+    }
 }

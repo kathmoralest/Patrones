@@ -15,7 +15,7 @@ public class Vehiculo {
    public String marca;
    public String modelo;
    public IMotor motor;
-   public sinpatron.Carroceria tipoCarroceria;
+   public Carroceria tipoCarroceria;
    
    public String getPrestaciones(){
        String n1 = "Prestaciones:\n";

@@ -15,5 +15,10 @@ public class AutomovilDecorator {
         this.vehiculo = vehiculo;
     }
     
+    public void aggFeatures(){
+        System.out.println("Un carro basico");
+    }
+    
+    
     
 }

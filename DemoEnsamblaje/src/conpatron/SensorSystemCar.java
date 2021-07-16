@@ -13,4 +13,10 @@ public class SensorSystemCar extends AutomovilDecorator{
     public SensorSystemCar(Vehiculo vehiculo){
         super(vehiculo);
     }
+    
+    @Override
+    public void aggFeatures(){
+        super.aggFeatures();
+        System.out.println("agregado un sistema sensorial en el automovil");
+    }
 }
